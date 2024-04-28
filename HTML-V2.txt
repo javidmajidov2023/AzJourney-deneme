@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeⅠAzJourney </title>
+    <link rel="stylesheet" href="index.css">
+    
+    <link rel="icon" href="C:\Users\cavid\Desktop\Az(Journery).com\Logo\logo3.png">
+</head>
+<body>
+
+
+<div class="body-div">
+    
+
+
+
+
+
+
+
+    <div class="scrolling-div" id="scrollingDiv">
+
+<script src="index.js"></script>
+      <a href="index.html"> <img id="logo" src="C:\Users\cavid\Desktop\Az(Journery).com\Logo\logo3.png"></a>
+
+      <a href="index.html" id="p1">Home</a>
+
+      
+
+      <a href="haqqimizda.html" id="p2">Start the journey</a>
+
+      <a href="xidmetler.html" id="p3">Contact</a>
+
+
+
+
+<img id="eng-icon" src="C:\Users\cavid\Desktop\Az(Journery).com\Images\eng-icon.png">
+
+<select id="language" onchange="changeLanguage()">
+    <option value="" disabled selected>Language</option>
+    <option value="index-en.html">EN</option>
+    <option value="index-ru.html">RU</option>
+    <option value="index.html">AZ</option>
+</select>
+
+<script>
+    function changeLanguage() {
+        var selectedLanguage = document.getElementById("language").value;
+
+        // Redirect to the corresponding HTML file based on the selected language
+        if (selectedLanguage) {
+            window.location.href = selectedLanguage;
+        }
+    }
+</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr id="hr1">
+    </div>
+
+
+
+
+
+<p id="popular-places"><span class="span1">Popular places in <span class="blue">Aze</span><span class="red">rbai</span><span class="green">jan</span></span></p>
+
+
+<!---------------------------------------------------SUGGESTS----------------------------------------->
+
+
+<div class="suggest-1">
+    <img class="suggest1-img" src="C:\Users\cavid\Desktop\Az(Journery).com\Bakı\Places\Qız Qalası\img.png">
+    <p class="suggest1-name">Maiden's Tower</p>
+    <p class="suggest1-loc">Baku</p>
+    <div class="sugget-1-div">
+        <img class="full1" src="./1-full.svg">
+        <img class="full1" src="./1-full.svg">
+        <img class="full1" src="./1-full.svg">
+        <img class="full1" src="./1-full.svg">
+        <img class="full1" src="./1-full.svg">
+        
+
+
+    </div>
+
+</div>
+
+    
+
+</div>
+
+
+
+</body>
+</html>
+

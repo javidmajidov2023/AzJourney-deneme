@@ -1,0 +1,595 @@
+body{
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+
+
+.scrolling-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 20%;
+    width: 100%;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    transition: transform 0.5s ease;
+    z-index: 999;
+
+}
+
+.scrolling-div.bottom {
+    top: auto;
+    bottom: 0;
+    transform: translateY(100%);
+}
+
+#hr1{
+  position: absolute;
+  top: 92%;
+  width: 100%;
+}
+
+/* -------------------------------------------------------CSS for scrolling-div------------------------------------------------------- */
+
+
+#logo{
+    position: absolute;
+    width: 10%; /* Önceki genişlik ayarını kaldırın */
+    max-width: 150px; /* Maksimum genişlik belirleyin */
+    height: auto; /* Yüksekliği otomatik olarak ayarlayın */
+    left: 2%;
+    top: 47%;
+    transform: translateY(-50%);
+}
+
+#p1 {
+    font-size: 120%;
+    color: #000;
+    text-decoration: none; 
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: white;
+    border: 3px solid white;
+    border-radius: 50px;
+    padding: 8px;
+    transition: color 0.3s ease;
+
+}
+
+#p1:hover {
+    color: lightgray;
+}
+
+
+
+  /*
+          #p1:hover::before {
+              content: "";
+              display: block;
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+              background: transparent;
+              transition: transform 0.3s ease;
+          }
+  
+          #p1:hover:hover::before {
+              transform: rotate(-15deg);
+          }
+  */
+#p2 {
+    font-size: 120%;
+    color: #000;
+    text-decoration: none; 
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    left: 41%;
+    color: white;
+    border: 3px solid white;
+    border-radius: 50px;
+    padding: 8px;
+    transition: color 0.3s ease;
+}
+
+#p2:hover {
+    color: lightgray;
+}/*
+          #p2:hover::before {
+              content: "";
+              display: block;
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+              background: transparent;
+              transition: transform 0.3s ease;
+          }
+  
+          #p2:hover:hover::before {
+              transform: rotate(15deg);
+          }
+  */
+  
+#p3 {
+    font-size: 120%;
+    color: #000;
+    text-decoration: none; 
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    color: white;
+    border: 3px solid white;
+    border-radius: 50px;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+#p3:hover {
+    color: lightgray;
+}
+  
+  /*
+  #p3:hover::before {
+              content: "";
+              display: block;
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+              background: transparent;
+              transition: transform 0.3s ease;
+  }
+  
+          #p3:hover:hover::before {
+              transform: rotate(15deg);
+          }
+  */
+  
+
+  
+  
+  
+  /*
+          #p4:hover::before {
+              content: "";
+              display: block;
+              width: 100%;
+              height: 100%;
+
+
+
+.open-close{
+    display: none;
+}
+
+              position: absolute;
+              top: 0;
+              left: 0;
+              background: transparent;
+              transition: transform 0.3s ease;
+          }
+  
+          #p4:hover:hover::before {
+              transform: rotate(15deg);
+          }
+  */
+  
+
+  
+  #eng-icon{
+    position: absolute;
+    width: 3%; /* Önceki genişlik ayarını kaldırın */
+    max-width: 50px; /* Maksimum genişlik belirleyin */
+    height: auto; /* Yüksekliği otomatik olarak ayarlayın */
+    left: 86.6%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  #language{
+      position: absolute;
+      margin-left: 90%;
+      top: 33%;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      width: 120px;
+      height: 38px;
+      font-size: 20px;
+      border-radius: 50px;
+  }
+
+
+
+
+
+#background{
+ 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Ensure the image is behind other content */
+}
+
+
+
+/*
+#slogan{
+  position: absolute;
+  font-size: 20px;
+  top: 60%;
+  left: 33%;
+  width: 500px;
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  border: 5px solid white;
+  border-radius: 50px;
+  background: transparent;
+  padding: 0.5%;
+}
+*/
+
+
+
+
+#popular-places{
+    position: absolute;
+    font-size: 50px;
+    min-font-size: 50px;/* Yüzde cinsinden font boyutu */
+    max-font-size: 50px; 
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    border: 5px solid transparent;
+    border-radius: 50px;
+    filter: drop-shadow(10px 7px 20px white);}
+
+.span1{
+  font-family: cursive;
+}
+
+.blue{
+ filter: drop-shadow(0px 3px 8px blue);
+}
+
+
+.red{
+ filter: drop-shadow(0px 3px 8px red);
+}
+
+
+.green{
+ filter: drop-shadow(0px 3px 8px green);
+}
+
+
+
+/*-----------------------------------------------SUGGESTS-----------------------------------------*/
+
+
+.suggest-1 {
+  position: absolute;
+  border: 3px solid white;
+  border-radius: 15px;
+  min-height: 78%;
+  max-height: 78%;
+  min-width: 20%;
+  max-width: 20%;
+  top: 60%;
+  left: 10%;
+  backdrop-filter: blur(8px);
+  transition: box-shadow 0.2s ease, transform 0.5s ease; /* Adding transition effect to box-shadow and transform */
+}
+
+.suggest-1:hover {
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5); /* Adding box shadow on hover */
+  transform: scale(1.05); /* Scale up by 5% on hover */
+}
+
+
+
+
+
+
+#suggest1-img{
+  min-width: 100%;
+  max-width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+#suggest1-name{
+  font-weight: bold;
+  margin: 3%;
+  color: white;
+  text-align: center;
+}
+
+#suggest1-loc{
+  color: lightgray;
+  text-align: center;
+  margin: 0;
+}
+
+
+.suggest1-stars{
+  position: fixed;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  align-items: center;
+  top: 50.7%;
+  margin-left: 48.2%;
+
+}
+
+.full1{
+  width: 20%;
+}
+
+.full2{
+  
+  margin-left: -30%;
+  width: 20%;
+
+}
+
+.full3{
+  margin-left: -30%;
+  width: 20%;
+
+}
+
+.full4{
+  margin-left: -30%;
+  width: 20%;
+
+}
+
+.half1{
+  margin-left: 9.5%;
+  margin-bottom: 0.3%;
+  width: 20%;
+
+}
+
+#suggest1-about-short{
+  position: relative;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  margin-top: 12%;
+}
+
+
+
+
+
+
+
+
+
+.suggest-2 {
+  position: absolute;
+  border: 3px solid white;
+  border-radius: 15px;
+  min-height: 78%;
+  max-height: 78%;
+  min-width: 20%;
+  max-width: 20%;
+  top: 60%;
+  left: 40%;
+  backdrop-filter: blur(8px);
+  transition: box-shadow 0.2s ease, transform 0.5s ease; /* Adding transition effect to box-shadow and transform */
+}
+
+.suggest-2:hover {
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5); /* Adding box shadow on hover */
+  transform: scale(1.05); /* Scale up by 5% on hover */
+}
+
+
+
+
+
+
+#suggest2-img{
+  min-width: 100%;
+  max-width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  margin-bottom: 29px;
+}
+
+#suggest2-name{
+  font-weight: bold;
+  margin: 3%;
+  color: white;
+  text-align: center;
+}
+
+#suggest2-loc{
+  color: lightgray;
+  text-align: center;
+  margin: 0;
+}
+
+
+.suggest2-stars{
+  position: fixed;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  align-items: center;
+  top: 50.6%;
+  margin-left: 48.3%;
+
+}
+
+.full1{
+  width: 20%;
+}
+
+.full2{
+  
+  margin-left: -30%;
+  width: 20%;
+
+}
+
+.full3{
+  margin-left: -30%;
+  width: 20%;
+
+}
+
+.full4{
+  margin-left: -30%;
+  width: 20%;
+
+}
+
+.half1{
+  margin-left: 9.5%;
+  margin-bottom: 0.3%;
+  width: 20%;
+
+}
+
+#suggest2-about-short{
+  position: relative;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  margin-top: 12%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.suggest-3 {
+  position: absolute;
+  border: 3px solid white;
+  border-radius: 15px;
+  min-height: 78%;
+  max-height: 78%;
+  min-width: 20%;
+  max-width: 20%;
+  top: 60%;
+  left: 70%;
+  backdrop-filter: blur(8px);
+  transition: box-shadow 0.2s ease, transform 0.5s ease; /* Adding transition effect to box-shadow and transform */
+}
+
+.suggest-3:hover {
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5); /* Adding box shadow on hover */
+  transform: scale(1.05); /* Scale up by 5% on hover */
+}
+
+
+
+
+
+
+#suggest3-img{
+  min-width: 100%;
+  max-width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  margin-bottom: 20px;
+}
+
+#suggest3-name{
+  font-weight: bold;
+  margin: 0%;
+  color: white;
+  text-align: center;
+}
+
+#suggest3-loc{
+  color: lightgray;
+  text-align: center;
+  margin: 8px;
+}
+
+
+.suggest3-stars{
+  position: fixed;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  align-items: center;
+  top: 50.7%;
+  margin-left: 48.3%;
+
+}
+
+.full1{
+  width: 20%;
+}
+
+.full2{
+  
+  margin-left: -30%;
+  width: 20%;
+
+}
+
+.full3{
+  margin-left: -30%;
+  width: 20%;
+
+}
+
+.full4{
+  margin-left: -30%;
+  width: 20%;
+
+}
+
+.half1{
+  margin-left: 9.5%;
+  margin-bottom: 0.3%;
+  width: 20%;
+
+}
+
+#suggest3-about-short{
+  position: relative;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  margin-top: 12%;
+}
+
+
+
+
+
+
+
